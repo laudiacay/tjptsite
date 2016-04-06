@@ -24,3 +24,8 @@ p {
 #index-banner2 {
     background-color: #7986cb;
 }
+
+#form {
+    overflow:hidden;
+    height: 1100px;
+}
