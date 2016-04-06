@@ -7352,9 +7352,21 @@ nav .brand-logo {
   color: #fff;
   display: inline-block;
   font-size: 2.1rem;
-  padding: 0;
   white-space: nowrap;
+  transition: background-color .3s;
+  cursor: pointer;
+  padding: 0 15px;
 }
+
+  nav .brand-logo:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  nav .brand-logo.left:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  nav .brand-logo.right:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 
 nav .brand-logo.center {
   left: 50%;
@@ -7367,11 +7379,12 @@ nav .brand-logo.center {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+    transition: background-color .3s;
+    cursor: pointer;
+    padding: 0 15px;
   }
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
-    -webkit-transform: none;
-            transform: none;
   }
   nav .brand-logo.left {
     left: 0.5rem;
